@@ -4,20 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-In</title>
+    <style>
+      body{
+            background-color: #B2C8BA;
+        }
+       form{
+        border: 1px solid black ;
+        width: 20%;
+        height: 175px;
+        padding-top: 5px;
+        padding-left: 550px;
+        padding-right: 550px;
+        text-align: center;
+       } 
+       button:hover{
+            background-color: #FF87B2;
+        }
+    </style>
 </head>
 <body>
-    <fieldset>
-    <center>
-    Username <input type ="email" name = "email"  placeholder="abc@gmail.com"><br><br>
-    Password <input type = "password" name="password" required placeholder="password" pattern="[A-Z a-z 0-9]{8,15}"><br><br>
+    <form action="Zomato_page.html">
+   
+    Username <input type ="email" name = "email" required placeholder="abc@gmail.com"><br><br>
+    Password <input type = "password" name="password" required placeholder="password" pattern="[A-Z ]{1}[a-z 0-9]{8,15}"><br><br>
     <pre>NOTE:Password Contains Atleast One Capital Letter
-Password should be Atleast 8 characters
+      Password should be Atleast 8 characters
     </pre>
     
-    <a href="Zomato_page.html"><button>SignUp</button> </a>
-    </center>
-
-
-</fieldset>
+    <button>SignUp</button> </a>
+   
+</form>
 </body>
 </html>

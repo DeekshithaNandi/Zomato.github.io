@@ -1,16 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <style>
+        body{
+            background-color: #B2C8BA;
+        }
+        form {
+            border: 1px solid black;
+            float: left;
+            width: 20%;
+            height: 60px;
+            padding-top: 5px;
+            padding-left: 570px;
+            padding-right: 600px;
+            text-align: center;
+            background-color: #95b0a4;
+        }
+        button:hover{
+            background-color: #FF87B2;
+        }
+    </style>
+
+
 </head>
+
 <body>
-    <fieldset>
-        <center>
-    Username <input type ="email" name = "email" placeholder="abc@gmail.com"><br><br>
-    <a href="Zomato_page.html"><button>Login</button> </a>
-    </center>
-</fieldset>
+    <form action="Zomato_page.html">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required placeholder="abc@gmail.com"><br><br>
+            <button>Login</button>
+
+    </form>
 </body>
+
 </html>
